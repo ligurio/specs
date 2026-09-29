@@ -7,6 +7,7 @@ MODELS := ibuf.als
 MODELS += lsregion.als
 MODELS += matras.als
 MODELS += mempool.als
+MODELS += obuf.als
 
 # quota.als -> quota.json
 RECEIPTS = $(MODELS:.als=.json)
