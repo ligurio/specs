@@ -17,6 +17,7 @@ MODELS += slab_cache.als
 MODELS += small.als
 MODELS += small_class.als
 MODELS += static.als
+MODELS += system.als
 
 # quota.als -> quota.json
 RECEIPTS = $(MODELS:.als=.json)
