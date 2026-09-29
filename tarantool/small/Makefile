@@ -13,6 +13,7 @@ MODELS += quota_lessor.als
 MODELS += common.als
 MODELS += region.als
 MODELS += slab_arena.als
+MODELS += slab_cache.als
 
 # quota.als -> quota.json
 RECEIPTS = $(MODELS:.als=.json)
