@@ -4,6 +4,7 @@ ALLOY_BIN ?= $(shell command -v alloy6 2>/dev/null)
 PYTHON ?= python3
 
 MODELS := ibuf.als
+MODELS += lsregion.als
 
 # quota.als -> quota.json
 RECEIPTS = $(MODELS:.als=.json)
