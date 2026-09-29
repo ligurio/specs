@@ -6,6 +6,7 @@ PYTHON ?= python3
 MODELS := ibuf.als
 MODELS += lsregion.als
 MODELS += matras.als
+MODELS += mempool.als
 
 # quota.als -> quota.json
 RECEIPTS = $(MODELS:.als=.json)
