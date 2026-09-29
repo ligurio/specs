@@ -1,0 +1,5 @@
+# Python bytecode cache.
+__pycache__/
+
+# Generated Alloy receipts (MODEL.json).
+/*.json
