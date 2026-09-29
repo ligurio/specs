@@ -9,6 +9,7 @@ MODELS += matras.als
 MODELS += mempool.als
 MODELS += obuf.als
 MODELS += quota.als
+MODELS += quota_lessor.als
 
 # quota.als -> quota.json
 RECEIPTS = $(MODELS:.als=.json)
